@@ -19,7 +19,7 @@ spec:
             - containerPort: 3000
           env:
             - name: INTERNAL_HOST
-              value: www.ticketing-app-prod-leonardo-gaston-rossi.xyz
+              value: 'http://www.ticketing-app-prod-leonardo-gaston-rossi.xyz'
 ---
 apiVersion: v1
 kind: Service
