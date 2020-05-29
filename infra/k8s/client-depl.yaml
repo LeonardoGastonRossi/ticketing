@@ -17,9 +17,6 @@ spec:
           image: leonardorossi/ticketing-client
           ports:
             - containerPort: 3000
-          env:
-            - name: INGRESS_SVC_HOST
-              value: ingress-nginx-controller.ingress-nginx.svc.cluster.local
 ---
 apiVersion: v1
 kind: Service
