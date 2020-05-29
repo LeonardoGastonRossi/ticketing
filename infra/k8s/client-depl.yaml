@@ -17,6 +17,9 @@ spec:
           image: leonardorossi/ticketing-client
           ports:
             - containerPort: 3000
+          env:
+            - name: INTERNAL_HOST
+              value: www.ticketing-app-prod-leonardo-gaston-rossi.xyz
 ---
 apiVersion: v1
 kind: Service
